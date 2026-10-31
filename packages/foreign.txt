@@ -1,0 +1,14 @@
+android-emulator
+android-platform
+android-sdk
+android-sdk-build-tools
+android-sdk-cmdline-tools-latest
+android-sdk-platform-tools
+antigravity-ide
+google-chrome
+postman-bin
+quickshell-git
+spring-boot-cli
+ventoy-bin
+yay
+yay-debug

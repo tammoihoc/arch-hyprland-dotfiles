@@ -1,0 +1,15 @@
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*secret*
+**/*token*
+**/*credential*
+**/.cache/
+**/cache/
+**/*.log
+
+# Exclude bundled applications
+/local/bin/postman
+/local/bin/lib/
+/**/node_modules/
