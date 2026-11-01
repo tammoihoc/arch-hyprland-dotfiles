@@ -25,8 +25,8 @@ QtObject {
         customName.length > 0 ? customName : username
 
     // Thay bằng ảnh thật của bạn
-    property string avatarPath: "/home/tam/Pictures/8c52b476-dd15-418e-a8b9-5f3c8beb7552.jpeg"
-    property string bannerPath: "/home/tam/Pictures/557f8523-0fd0-42cb-9757-59832d2f3d9c.jpeg"
+    property string avatarPath: "/home/tam123/Pictures/anhvabe.jpeg"
+    property string bannerPath: "/home/tam123/Pictures/be.jpeg"
 
     readonly property int animationDuration: 220
 }

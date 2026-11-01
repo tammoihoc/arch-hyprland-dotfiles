@@ -30,7 +30,7 @@ ShellRoot {
             secret = password
             queuedResponse = true
             authenticating = true
-            Greetd.createSession("tam")
+            Greetd.createSession("tam123")
         }
     }
     function clearAuth(message: string): void {
@@ -82,7 +82,7 @@ ShellRoot {
             id: view
             anchors.fill: parent
             loginMode: true
-            accountName: "tam"
+            accountName: "tam123"
             preview: root.preview
             busy: root.authenticating && !root.waitingResponse
             errorMessage: root.errorMessage

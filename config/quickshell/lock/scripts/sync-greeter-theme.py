@@ -40,7 +40,11 @@ files += [str(p.relative_to(source)) for folder in ('components', 'music')
 for name in files:
     content = (source / name).read_text()
     if name == 'LockSettings.qml':
-        content = content.replace('"file:///home/tam/.config/quickshell/features/power/theme"', '"theme"')
+        content = re.sub(
+            r'"file:///home/[^/]+/\.config/quickshell/features/power/theme"',
+            '"theme"',
+            content
+        )
     dest = target / name
     dest.write_text(content)
     dest.chmod(0o644)

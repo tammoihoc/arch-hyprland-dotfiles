@@ -1,5 +1,5 @@
 import QtQuick
-import "file:///home/tam/.config/quickshell/features/power/theme" as Theme
+import "file:///home/tam123/.config/quickshell/features/power/theme" as Theme
 
 QtObject {
     readonly property Theme.PowerTheme sharedTheme: Theme.PowerTheme {}

@@ -13,3 +13,7 @@
 /local/bin/postman
 /local/bin/lib/
 /**/node_modules/
+
+# Python cache
+__pycache__/
+*.pyc

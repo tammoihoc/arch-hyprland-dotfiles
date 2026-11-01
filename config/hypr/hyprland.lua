@@ -387,7 +387,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("$HOME/.config/quickshell/lock/lock.sh daemon")
 	hl.exec_cmd("hyprpaper")
 	hl.exec_cmd(
-		"sleep 0.3 && hyprctl hyprpaper wallpaper ',/home/tam/Downloads/kame-house-dragon-3840x2160-25003.jpg,cover'"
+		"sleep 0.3 && hyprctl hyprpaper wallpaper ',/home/tam123/Pictures/kingdom-hearts-3840x2160-27569.jpg,cover'"
 	)
 end)
 hl.bind(
